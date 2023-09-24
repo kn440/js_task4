@@ -1,0 +1,88 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #FFF;
+    }
+    
+    .container {
+        width: 1146px;
+        margin: 0 auto;
+    }
+    
+    .header {
+        margin-bottom: 160px;
+    }
+    
+    .header-link {
+        text-decoration: none;
+        font-family: Gilroy-SemiBold;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 40px 20px;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-link:hover {
+        color: #F25822
+    }
+    
+    .title {
+        color: #000;
+        font-family: Gilroy-Bold;
+        font-size: 60px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    
+    .dsc {
+        color: #888;
+        font-family: Gilroy-Medium;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+    
+    .main-link-Start {
+        text-decoration: none;
+        padding: 1rem 2rem;
+        border-radius: 50px;
+        background: #F25822;
+        box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+        color: #FFF;
+        font-family: Gilroy-Bold;
+        font-size: 15px;
+        font-weight: 400;
+        margin-right: 20px;
+    }
+    
+    .main-link-Watch {
+        text-decoration: none;
+        padding: 1rem 2rem;
+        border-radius: 50px;
+        box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+        color: #AAA;
+        font-family: Gilroy-Bold;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .main-left,
+    .main-right {
+        width: 47%;
+        padding-bottom: 162px;
+    }
